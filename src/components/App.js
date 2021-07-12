@@ -1,9 +1,10 @@
 import React from "react";
 import Header from "./Header";
 import TicketControl from "./TicketControl";
+import FirebaseSdk from "./FirebaseSdk";
 
 function App(){
-  return ( 
+  return (
     <React.Fragment>
       <Header />
       <TicketControl />
